@@ -149,4 +149,4 @@ If you got here congratulations! Now you can control stuff over the Internet. Yo
 
   And please, let me know of your projects that used this idea. I'd glad to add your improvements to my project here.
   
-### `Because God so loved the world that He give His only and begotten Son. John 3.16a` 
+#### `For God so loved the world that He gave his one and only Son, that whoever believes in Him shall not perish but have eternal life. John 3.16` 

@@ -52,7 +52,7 @@ Tunnel the local service to the world:
 
     * To test the web server type:
       * username: **batman**
-      * password: ** robin **
+      * password: **robin**
 
     * Another change is that we'll be using port 80, instead of 3000.
 

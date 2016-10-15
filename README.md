@@ -53,7 +53,7 @@ This setup can be accessed from anywhere via a Internet enable device
   1 - Moving things around:
 
     1.1 - For lirc_web
-      Move the folders 'db/', 'views/' and the file 'app.js' to the folder 'lirc_web'.
+      Move the folders `db/`, `views/` and the file `app.js` to the folder `lirc_web`.
 
       This will change the behaviour of the website where we can access the remote controls.
       Since our local server is going to be tunneled, it'll need a login area.

@@ -81,4 +81,9 @@ This setup can be accessed from anywhere via a Internet enable device
         - Renaming an existing command.
       * See instructions on how to use them bellow.
 
-  After making these small changes the reader is able
+      After making these small changes you should be able to:
+        - Use the built-in functions from LIRC lib.
+        - Run a local web server with NodeJS.
+        - Tunnel the local web server to the world.
+        - Use username and password to access the web server.
+        - See my commands on the Internet.

@@ -79,7 +79,7 @@ This setup can be accessed from anywhere via a Internet enable device
         - Recording a new command,
         - Deleting a command and
         - Renaming an existing command.
-** See instructions on how to use them bellow. **
+* See instructions on how to use them bellow. *
 
     After making these small changes you should be able to:
       - Use the built-in functions from LIRC lib.

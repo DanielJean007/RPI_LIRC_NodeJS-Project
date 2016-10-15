@@ -81,14 +81,14 @@ This setup can be accessed from anywhere via a Internet enable device
         - Renaming an existing command.
       * See instructions on how to use them bellow.
 
-      After making these small changes you should be able to:
-        - Use the built-in functions from LIRC lib.
-        - Run a local web server with NodeJS.
-          Using: sudo node lirc_web/app.js
-        - Tunnel the local web server to the world.
-          Using: lt -p 80 --subdomain your_subdomain
-        - Use username and password to access the web server.
-        - See the commands I recorded on the Internet.
+    After making these small changes you should be able to:
+      - Use the built-in functions from LIRC lib.
+      - Run a local web server with NodeJS.
+        Using: sudo node lirc_web/app.js
+      - Tunnel the local web server to the world.
+        Using: lt -p 80 --subdomain your_subdomain
+      - Use username and password to access the web server.
+      - See the commands I recorded on the Internet.
 
   2 - Add your own stuff:
     You can use the built-in functions from LIRC lib, or my automated scripts.
@@ -125,3 +125,5 @@ This setup can be accessed from anywhere via a Internet enable device
         ./renameR name_of_command_stored new_name_of_command
       After that just follow the instructions that will pop up.
         - The messages are self explanatory.
+
+    After making these small changes you should be able to:

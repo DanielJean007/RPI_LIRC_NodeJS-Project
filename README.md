@@ -87,3 +87,5 @@ This setup can be accessed from anywhere via a Internet enable device
         - Tunnel the local web server to the world.
         - Use username and password to access the web server.
         - See my commands on the Internet.
+
+  2 - Add your own stuff

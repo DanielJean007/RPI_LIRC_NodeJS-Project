@@ -47,8 +47,9 @@ Tunnel the local service to the world:
     * To add a new user and password open the file 'users.js' under the folder 'db/'. Just follow the structure under 'var records'.
     * To test the web server type:
 
-  > username: **batman**
-> password: **robin**
+      > username: **batman**
+      > password: **robin**
+      
     * Another change is that we'll be using port 80, instead of 3000.
 
     1.2 - For LIRC lib

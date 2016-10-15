@@ -27,4 +27,22 @@ This setup can be accessed from anywhere via a Internet enable device
 
   Set up NodeJs on RPI:
 
-    1 -
+    1 - http://node-arm.herokuapp.com/
+
+    2 - http://weworkweplay.com/play/raspberry-pi-nodejs/
+
+  To wire the sensor to RPI and to test them:
+
+    1 - https://learn.adafruit.com/ir-sensor/testing-an-ir-sensor
+
+    2 - http://randomtutor.blogspot.com.br/2013/01/web-based-ir-remote-on-raspberry-pi.html
+
+  Set up dongle wifi to RPI:
+
+    1 - http://ivanx.com/raspberrypi/raspberrypi_wifi.html
+
+  Tunnel the local service to the world:
+
+    1 - http://www.hongkiat.com/blog/accessible-local-web-server/
+
+    2 - https://github.com/localtunnel/localtunnel

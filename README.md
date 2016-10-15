@@ -135,7 +135,8 @@ This setup can be accessed from anywhere via a Internet enable device
       - Remove your own commands.
       - Rename commands.
 
-    Every time you change the 'lircd.conf' you must restart the app.js process in order to see the changes on the web server.
+    Every time you change the 'lircd.conf' you must restart the app.js process.
+    That is so, in order to see the changes on the web server.
     You might want to be able to see that by only refreshing the page, though.
 
 If you got here congratulations! Now you can control stuff over the Internet. You did that without adding any hardware to your devices.

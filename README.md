@@ -40,7 +40,7 @@ Tunnel the local service to the world:
   * [LocalTunnel](https://github.com/localtunnel/localtunnel)
 
 # What to do after following all the steps above?
-* Moving things around:
+### Moving things around:
   * For lirc_web
     * Move the folders 'db/', 'views/' and the file 'app.js' to the folder 'lirc_web.
     * This will change the behaviour of the website where we can access the remote controls. Since our local server is going to be tunneled, it'll need a login area. It's NOT interesting the everyone with the link could access the devices in our house. It's better if ONLY people with username and password could to it.
@@ -50,7 +50,7 @@ Tunnel the local service to the world:
       * password: **robin**
     * Another change is that we'll be using port 80, instead of 3000.
 
-* For LIRC lib
+### For LIRC lib
   * For a quick test of the functionalities of this project:
     * Move the file 'lircd.conf' in this repo to the directory ~/ (which is supposed do be pi/home/). After that type irsend list '' '' . You should see 'MasterControl'. This means you'll see the commands from this remote control on the website.
     **It's not a good idea to change 'lircd.conf' from it's original place. Believe me, I've tried.**

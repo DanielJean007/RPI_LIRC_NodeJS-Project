@@ -140,14 +140,14 @@ This setup can be accessed from anywhere via a Internet enable device
 
 If you got here congratulations! Now you can control stuff over the Internet. You did that without adding any hardware to your devices.
 
+#### `For God so loved the world that He gave his one and only Son, that whoever believes in Him shall not perish but have eternal life.`
+#### `John 3.16` 
+
 # Disclaimer
   This project is, by all means, NOT at a finished state. This project is intended to get your feet wet on RPI, LIRC, NodeJS and Tunneling.
 
   It's also NOT bug free. You know...
 
-  Feel free to use the stuff here in your project as you see fit. Just remember to cite thi repo.
+  Feel free to use the stuff here in your project as you see fit. Just remember to cite this repo.
 
-  And please, let me know of your projects that used this idea. I'd glad to add your improvements to my project here.
-  
-#### `For God so loved the world that He gave his one and only Son, that whoever believes in Him shall not perish but have eternal life.`
-#### `John 3.16` 
+  And please, let me know of your projects that used this idea. I'd be glad to add your improvements to my project here.

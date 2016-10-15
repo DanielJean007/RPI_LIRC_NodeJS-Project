@@ -64,14 +64,14 @@ Tunnel the local service to the world:
 
           **See instructions on how to use them bellow.**
 
-    * After making these small changes you should be able to:
-      - Use the built-in functions from LIRC lib.
-      - Run a local web server with NodeJS. Using:
-        `sudo node lirc_web/app.js`
-      - Tunnel the local web server to the world. Using:
-        `lt -p 80 --subdomain your_subdomain`
-      - Use username and password to access the web server.
-      - See the commands I recorded on the Internet.
+  * After making these small changes you should be able to:
+    - Use the built-in functions from LIRC lib.
+    - Run a local web server with NodeJS. Using:
+      `sudo node lirc_web/app.js`
+    - Tunnel the local web server to the world. Using:
+      `lt -p 80 --subdomain your_subdomain`
+    - Use username and password to access the web server.
+    - See the commands I recorded on the Internet.
 
 ### Add your own stuff:
 You can use the built-in functions from LIRC lib, or my automated scripts. To begin using my scripts give them the right access: `sudo chmod 777 recordIR renameIR deleteIR`
@@ -100,8 +100,9 @@ You can use the built-in functions from LIRC lib, or my automated scripts. To be
     - Remove my commands. Although I'd advise to use the command: `echo '' > lircFiles/.allRawData`. This command *erases* the content of the file where my commands **(and eventually yours)** are stored.
     - Delete your own commands.
     - Rename your commands.
-
+### -
 ##### Every time you change the `lircd.conf` you must restart the `app.js` process. Then you will be able to see the changes on the web server. You might want to be able to see that by only refreshing the page, though.
+### -
 
 #### If you got here congratulations! Now you can control stuff over the Internet. You did that without adding any hardware to your devices.
 

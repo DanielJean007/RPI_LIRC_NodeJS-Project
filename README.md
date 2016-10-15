@@ -83,17 +83,15 @@ You can use the built-in functions from LIRC lib, or my automated scripts. To be
 
       * To use the script type: `./recordIR name_of_command`
       * After that just follow the instructions that will pop up. The expected result is `name_of_command recorded graciously.` That means you'll be set and able to see the new command when typing: `irsend list '' ''`.
-      * If the result is `Couldn't record command.` no data was acquired.
+      * If the result is `Couldn't record command.`, no data was acquired.
 
-    2.2 - deleteIR
-      This script just manipulates the file where the commands are stored.
+    * deleteIR
+      * This script just manipulates the file where the commands are stored.
 
-      To use the script type:
-        ./deleteIR name_of_command
-      After that just follow the instructions that will pop up.
+      * To use the script type: `./deleteIR name_of_command`. After that just follow the instructions that will pop up.
         - The messages are self explanatory.
 
-    2.3 - renameIR
+    * renameIR
       This script just manipulates the file where the commands are stored.
 
       To use the script type:

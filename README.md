@@ -19,7 +19,7 @@ This setup can be accessed from anywhere via a Internet enable device
 
   * localtunnel or ngrok
 
-# Where to find help for setting up things
+# Where to find help for setting things up
 Set up LIRC lib on RPI:
   * [Instructables](http://www.instructables.com/id/How-To-Useemulate-remotes-with-Arduino-and-Raspber/?ALLSTEPS)
   * [AlexBain](http://alexba.in/blog/2013/01/06/setting-up-lirc-on-the-raspberrypi/)
@@ -29,20 +29,15 @@ Set up NodeJs on RPI:
   * [NodeJS](http://weworkweplay.com/play/raspberry-pi-nodejs/)
 
 To wire the sensor to RPI and to test them:
+  * [WireUP-IR](https://learn.adafruit.com/ir-sensor/testing-an-ir-sensor)
+  * [Test-IR](http://randomtutor.blogspot.com.br/2013/01/web-based-ir-remote-on-raspberry-pi.html)
 
-    1 - https://learn.adafruit.com/ir-sensor/testing-an-ir-sensor
+Set up dongle wifi to RPI:
+  * [Ivan](http://ivanx.com/raspberrypi/raspberrypi_wifi.html)
 
-    2 - http://randomtutor.blogspot.com.br/2013/01/web-based-ir-remote-on-raspberry-pi.html
-
-  Set up dongle wifi to RPI:
-
-    1 - http://ivanx.com/raspberrypi/raspberrypi_wifi.html
-
-  Tunnel the local service to the world:
-
-    1 - http://www.hongkiat.com/blog/accessible-local-web-server/
-
-    2 - https://github.com/localtunnel/localtunnel
+Tunnel the local service to the world:
+  * [HongKiat](http://www.hongkiat.com/blog/accessible-local-web-server/)
+  * [LocalTunnel](https://github.com/localtunnel/localtunnel)
 
 # What to do after following all the steps above?
   1 - Moving things around:

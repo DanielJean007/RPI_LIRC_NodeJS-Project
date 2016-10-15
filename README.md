@@ -99,7 +99,7 @@ You can use the built-in functions from LIRC lib, or my automated scripts. To be
     - Delete your commands.
     - Rename your commands.
 
-#### Attention: Every time you change the `lircd.conf` you must restart the `app.js` process. Then you will be able to see the changes on the web server.
+#### Attention: Every time you change the `lircd.conf` file you must restart the `app.js` process. Then you will be able to see the changes on the Internet.
 
 ### If you got here congratulations! Now you can control stuff over the Internet. You did that without adding any hardware to your devices.
 

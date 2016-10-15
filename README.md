@@ -104,7 +104,6 @@ This setup can be accessed from anywhere via a Internet enable device
       To use the script type:
         ./recordIR name_of_command
       After that just follow the instructions that will pop up.
-
         - The expected result is 'name_of_command recorded graciously.'
         That means you'll be set and able to see the new command when typing:
           irsend list '' ''
@@ -117,7 +116,6 @@ This setup can be accessed from anywhere via a Internet enable device
       To use the script type:
         ./deleteIR name_of_command
       After that just follow the instructions that will pop up.
-
         - The messages are self explanatory.
 
     2.3 - renameIR
@@ -126,5 +124,4 @@ This setup can be accessed from anywhere via a Internet enable device
       To use the script type:
         ./renameR name_of_command_stored new_name_of_command
       After that just follow the instructions that will pop up.
-
         - The messages are self explanatory.

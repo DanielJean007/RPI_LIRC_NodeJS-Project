@@ -56,8 +56,7 @@ This setup can be accessed from anywhere via a Internet enable device
       Move the folders 'db/', 'views/' and the file 'app.js' to the folder 'lirc_web'.
 
       This will change the behaviour of the website where we can access the remote controls.
-      First, we added a login area.
-      Since we'll be tunneling our local server.
+      Since our local server is going to be tunneled, it'll need a login area.
       It's NOT interesting the everyone with the link could access the devices in our house.
       It's better if ONLY people with username and password could to it.
 

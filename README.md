@@ -50,30 +50,30 @@ Tunnel the local service to the world:
       * password: **robin**
     * Another change is that we'll be using port 80, instead of 3000.
 
-### For LIRC lib
-  * For a quick test of the functionalities of this project:
-    * Move the file 'lircd.conf' in this repo to the directory ~/ (which is supposed do be pi/home/).
-    After that type irsend list '' '' . You should see 'MasterControl'. This means you'll see the commands from this remote control on the website.
+  * For LIRC lib
+    * For a quick test of the functionalities of this project:
+      * Move the file 'lircd.conf' in this repo to the directory ~/ (which is supposed do be pi/home/).
+      After that type irsend list '' '' . You should see 'MasterControl'. This means you'll see the commands from this remote control on the website.
 
-      **It's not a good idea to change 'lircd.conf' from it's original place. Believe me, I've tried.**
+        **It's not a good idea to change 'lircd.conf' from it's original place. Believe me, I've tried.**
 
-    * The folder 'lircFiles/' contains handy scripts for automating the process of:
-        - Recording a new command,
-        - Deleting a command and
-        - Renaming an existing command.
+      * The folder 'lircFiles/' contains handy scripts for automating the process of:
+          - Recording a new command,
+          - Deleting a command and
+          - Renaming an existing command.
 
-        **See instructions on how to use them bellow.**
+          **See instructions on how to use them bellow.**
 
-    * After making these small changes you should be able to:
-      - Use the built-in functions from LIRC lib.
-      - Run a local web server with NodeJS.
-        Using: sudo node lirc_web/app.js
-      - Tunnel the local web server to the world.
-        Using: lt -p 80 --subdomain your_subdomain
-      - Use username and password to access the web server.
-      - See the commands I recorded on the Internet.
+      * After making these small changes you should be able to:
+        - Use the built-in functions from LIRC lib.
+        - Run a local web server with NodeJS.
+          Using: sudo node lirc_web/app.js
+        - Tunnel the local web server to the world.
+          Using: lt -p 80 --subdomain your_subdomain
+        - Use username and password to access the web server.
+        - See the commands I recorded on the Internet.
 
-  2 - Add your own stuff:
+### Add your own stuff:
     You can use the built-in functions from LIRC lib, or my automated scripts.
     To begin using my scripts give them the right access:
       sudo chmod 777 recordIR renameIR deleteIR
@@ -121,7 +121,7 @@ Tunnel the local service to the world:
     Then you will be able to see the changes on the web server.
     You might want to be able to see that by only refreshing the page, though.
 
-If you got here congratulations! Now you can control stuff over the Internet. You did that without adding any hardware to your devices.
+#### If you got here congratulations! Now you can control stuff over the Internet. You did that without adding any hardware to your devices.
 
 # Disclaimer
   This project is, by all means, NOT at a finished state. This project is intended to get your feet wet on RPI, LIRC, NodeJS and Tunneling.

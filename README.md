@@ -70,12 +70,15 @@ This setup can be accessed from anywhere via a Internet enable device
 
     1.2 - For LIRC lib
       For a quick test of the functionalities of this project:
-        Move the file 'lircd.conf' in this repo to the directory ~/ (which is supposed do be pi/home/).
-        After that type irsend list '' '' . You should see 'MasterControl'.
+        - Move the file 'lircd.conf' in this repo to the directory ~/ (which is supposed do be pi/home/).
+        - After that type irsend list '' '' . You should see 'MasterControl'.
       This means you'll see the commands from this remote control on the website.
-      *It's not a good idea to change 'lircd.conf' from it's original place. Believe me, I've tried.*
+      * It's not a good idea to change 'lircd.conf' from it's original place. Believe me, I've tried.
 
-      The folder 'lircFiles/' contains handy scripts for automating the process of recording a new command, deleting a command and renaming an existing command.
-      See instructions to using them bellow.
+      The folder 'lircFiles/' contains handy scripts for automating the process of:
+        - Recording a new command,
+        - Deleting a command and
+        - Renaming an existing command.
+      * See instructions on how to use them bellow.
 
   After making these small changes the reader is able

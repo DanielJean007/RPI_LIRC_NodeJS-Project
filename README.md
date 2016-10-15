@@ -127,3 +127,13 @@ This setup can be accessed from anywhere via a Internet enable device
         - The messages are self explanatory.
 
     After making these small changes you should be able to:
+      - Record your own commands.
+      - Remove my commands.
+        Although I'd advise to use the command:
+          echo '' > lircFiles/.allRawData
+        This command 'erases' the file where my commands (and eventually yours) are stored.
+      - Remove your own commands.
+      - Rename commands.
+
+# If you got here congratulations! Now you can control stuff over the Internet.
+#You did that without adding any hardware to your devices.

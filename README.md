@@ -57,12 +57,14 @@ Tunnel the local service to the world:
 
       **It's not a good idea to change 'lircd.conf' from it's original place. Believe me, I've tried.**
 
+
     * The folder 'lircFiles/' contains handy scripts for automating the process of:
         - Recording a new command,
         - Deleting a command and
         - Renaming an existing command.
 
         **See instructions on how to use them bellow.**
+
 
     * After making these small changes you should be able to:
       - Use the built-in functions from LIRC lib.

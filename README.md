@@ -105,11 +105,11 @@ This setup can be accessed from anywhere via a Internet enable device
         ./recordIR name_of_command
       After that just follow the instructions that will pop up.
 
-      - The expected result is 'name_of_command recorded graciously.'
-      That means you'll be set and able to see the new command when typing:
-        irsend list '' ''
+        - The expected result is 'name_of_command recorded graciously.'
+        That means you'll be set and able to see the new command when typing:
+          irsend list '' ''
 
-      - If the result is 'Couldn't record command.' It's because no data was acquired.
+        - If the result is 'Couldn't record command.' It's because no data was acquired.
 
     2.2 - deleteIR
       This script just manipulates the file where the commands are stored.
@@ -117,7 +117,8 @@ This setup can be accessed from anywhere via a Internet enable device
       To use the script type:
         ./deleteIR name_of_command
       After that just follow the instructions that will pop up.
-      The messages are self explanatory.
+
+        - The messages are self explanatory.
 
     2.3 - renameIR
       This script just manipulates the file where the commands are stored.
@@ -125,4 +126,5 @@ This setup can be accessed from anywhere via a Internet enable device
       To use the script type:
         ./renameR name_of_command_stored new_name_of_command
       After that just follow the instructions that will pop up.
-      The messages are self explanatory.
+
+        - The messages are self explanatory.

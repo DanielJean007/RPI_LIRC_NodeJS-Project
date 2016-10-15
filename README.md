@@ -74,15 +74,13 @@ Tunnel the local service to the world:
       - See the commands I recorded on the Internet.
 
 ### Add your own stuff:
-    You can use the built-in functions from LIRC lib, or my automated scripts.
-    To begin using my scripts give them the right access:
-      sudo chmod 777 recordIR renameIR deleteIR
+You can use the built-in functions from LIRC lib, or my automated scripts. To begin using my scripts give them the right access: `sudo chmod 777 recordIR renameIR deleteIR`
 
-    Using the scripts:
-    2.1 - recordIR
-      This script used 'mode2' built-in function from LIRC to record the RAW data from a remote control.
+  * Using the scripts:
+    * recordIR
+      This script used `mode2` built-in function from LIRC to record the RAW data from a remote control.
       This is so, for some remote controls I tested had such a lengthy encoding.
-      Then, I had to use 'mode2' function instead of 'irrecord' function.
+      Then, I had to use 'mode2' function instead of `irrecord` function.
 
       To use the script type:
         ./recordIR name_of_command

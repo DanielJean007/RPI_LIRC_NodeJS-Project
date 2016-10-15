@@ -88,29 +88,20 @@ You can use the built-in functions from LIRC lib, or my automated scripts. To be
     * deleteIR
       * This script just manipulates the file where the commands are stored.
 
-      * To use the script type: `./deleteIR name_of_command`. After that just follow the instructions that will pop up.
-        - The messages are self explanatory.
+      * To use the script type: `./deleteIR name_of_command`. After that just follow the instructions that will pop up. The messages are self explanatory.
 
     * renameIR
-      This script just manipulates the file where the commands are stored.
+      * This script just manipulates the file where the commands are stored.
 
-      To use the script type:
-        ./renameR name_of_command_stored new_name_of_command
-      After that just follow the instructions that will pop up.
-        - The messages are self explanatory.
+      * To use the script type: `./renameR name_of_command_stored new_name_of_command` After that just follow the instructions that will pop up. The messages are self explanatory.
 
-    After making these small changes you should be able to:
-      - Record your own commands.
-      - Remove my commands.
-        Although I'd advise to use the command:
-          echo '' > lircFiles/.allRawData
-        This command 'erases' the content of the file where my commands (and eventually yours) are stored.
-      - Remove your own commands.
-      - Rename commands.
+  * After making these small changes you should be able to:
+    - Record your own commands.
+    - Remove my commands. Although I'd advise to use the command: `echo '' > lircFiles/.allRawData`. This command *erases* the content of the file where my commands **(and eventually yours)** are stored.
+    - Delete your own commands.
+    - Rename your commands.
 
-    Every time you change the 'lircd.conf' you must restart the app.js process.
-    Then you will be able to see the changes on the web server.
-    You might want to be able to see that by only refreshing the page, though.
+##### Every time you change the `lircd.conf` you must restart the `app.js` process. Then you will be able to see the changes on the web server. You might want to be able to see that by only refreshing the page, though.
 
 #### If you got here congratulations! Now you can control stuff over the Internet. You did that without adding any hardware to your devices.
 

@@ -131,8 +131,11 @@ This setup can be accessed from anywhere via a Internet enable device
       - Remove my commands.
         Although I'd advise to use the command:
           echo '' > lircFiles/.allRawData
-        This command 'erases' the file where my commands (and eventually yours) are stored.
+        This command 'erases' the content of the file where my commands (and eventually yours) are stored.
       - Remove your own commands.
       - Rename commands.
+
+    Every time you change the 'lircd.conf' you must restart the app.js process in order to see the changes on the web server.
+    You might want to be able to see that by only refreshing the page, though.
 
 If you got here congratulations! Now you can control stuff over the Internet. You did that without adding any hardware to your devices.

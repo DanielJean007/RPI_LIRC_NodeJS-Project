@@ -55,14 +55,14 @@ Tunnel the local service to the world:
     * Move the file 'lircd.conf' in this repo to the directory ~/ (which is supposed do be pi/home/).
     After that type irsend list '' '' . You should see 'MasterControl'. This means you'll see the commands from this remote control on the website.
 
-    **It's not a good idea to change 'lircd.conf' from it's original place. Believe me, I've tried.**
+      **It's not a good idea to change 'lircd.conf' from it's original place. Believe me, I've tried.**
 
     * The folder 'lircFiles/' contains handy scripts for automating the process of:
         - Recording a new command,
         - Deleting a command and
         - Renaming an existing command.
 
-    **See instructions on how to use them bellow.**
+        **See instructions on how to use them bellow.**
 
     * After making these small changes you should be able to:
       - Use the built-in functions from LIRC lib.

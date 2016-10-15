@@ -48,3 +48,18 @@ This setup can be accessed from anywhere via a Internet enable device
     1 - http://www.hongkiat.com/blog/accessible-local-web-server/
 
     2 - https://github.com/localtunnel/localtunnel
+
+# What do do after following all the above steps?
+  1 - Moving files around:
+
+    Move the folders 'db/', 'views/' and the file 'app.js' to the folder 'lirc_web'.
+
+    This will change the behaviour of the website where we can access the remote controls. First, we added a login area. Since we'll be tunneling our local server, it's NOT interesting the everyone with the link could access the devices in our house. It's better if ONLY people with username and password could to it.
+
+    To add a new user and password open the file users.js under the folder 'db/'. Just follow the structure under 'var records'. To test the web server type:
+        username: batman
+        password: robin
+
+    Another change is that we'll be using port 80, instead of 3000.
+
+    After making these small changes the reader is able

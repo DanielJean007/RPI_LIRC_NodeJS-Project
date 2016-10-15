@@ -53,7 +53,7 @@ This setup can be accessed from anywhere via a Internet enable device
   1 - Moving things around:
 
     1.1 - For lirc_web
-      Move the folders `db/`, `views/` and the file `app.js` to the folder `lirc_web`.
+      Move the folders 'db/', 'views/' and the file 'app.js' to the folder 'lirc_web.
 
       This will change the behaviour of the website where we can access the remote controls.
       Since our local server is going to be tunneled, it'll need a login area.
@@ -73,13 +73,13 @@ This setup can be accessed from anywhere via a Internet enable device
         - Move the file 'lircd.conf' in this repo to the directory ~/ (which is supposed do be pi/home/).
         - After that type irsend list '' '' . You should see 'MasterControl'.
       This means you'll see the commands from this remote control on the website.
-      **It's not a good idea to change 'lircd.conf' from it's original place. Believe me, I've tried.**
+      ** It's not a good idea to change 'lircd.conf' from it's original place. Believe me, I've tried. **
 
       The folder 'lircFiles/' contains handy scripts for automating the process of:
         - Recording a new command,
         - Deleting a command and
         - Renaming an existing command.
-      **See instructions on how to use them bellow.**
+      ** See instructions on how to use them bellow. **
 
     After making these small changes you should be able to:
       - Use the built-in functions from LIRC lib.

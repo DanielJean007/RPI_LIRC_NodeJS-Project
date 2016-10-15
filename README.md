@@ -97,14 +97,16 @@ This setup can be accessed from anywhere via a Internet enable device
 
     Using the scripts:
     2.1 - recordIR
-      This script used mode2 built-in function from LIRC to record the RAW data from a remote control.
-      This is so, for some remote controls I tested had such a lengthy encoding that they could not be recorded using the simple 'irrecord' function.
+      This script used 'mode2' built-in function from LIRC to record the RAW data from a remote control.
+      This is so, for some remote controls I tested had such a lengthy encoding.
+      Then, I had to use 'mode2' function instead of 'irrecord' function.
 
       To use the script type:
         ./recordIR name_of_command
       After that just follow the instructions that will pop up.
 
-      - If the result is 'name_of_command recorded graciously.' you'll be set and able to see the new command when typing:
+      - The expected result is 'name_of_command recorded graciously.'
+      That means you'll be set and able to see the new command when typing:
         irsend list '' ''
 
       - If the result is 'Couldn't record command.' It's because no data was acquired.

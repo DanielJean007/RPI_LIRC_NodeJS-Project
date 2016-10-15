@@ -61,7 +61,8 @@ This setup can be accessed from anywhere via a Internet enable device
       It's better if ONLY people with username and password could to it.
 
       To add a new user and password open the file 'users.js' under the folder 'db/'.
-      Just follow the structure under 'var records'. To test the web server type:
+      Just follow the structure under 'var records'.
+      To test the web server type:
           username: batman
           password: robin
 

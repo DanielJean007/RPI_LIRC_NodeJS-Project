@@ -84,8 +84,43 @@ This setup can be accessed from anywhere via a Internet enable device
       After making these small changes you should be able to:
         - Use the built-in functions from LIRC lib.
         - Run a local web server with NodeJS.
+          Using: sudo node lirc_web/app.js
         - Tunnel the local web server to the world.
+          Using: lt -p 80 --subdomain your_subdomain
         - Use username and password to access the web server.
-        - See my commands on the Internet.
+        - See the commands I recorded on the Internet.
 
-  2 - Add your own stuff
+  2 - Add your own stuff:
+    You can use the built-in functions from LIRC lib, or my automated scripts.
+    To begin using my scripts give them the right access:
+      sudo chmod 777 recordIR renameIR deleteIR
+
+    Using the scripts:
+    2.1 - recordIR
+      This script used mode2 built-in function from LIRC to record the RAW data from a remote control.
+      This is so, for some remote controls I tested had such a lengthy encoding that they could not be recorded using the simple 'irrecord' function.
+
+      To use the script type:
+        ./recordIR name_of_command
+      After that just follow the instructions that will pop up.
+
+      - If the result is 'name_of_command recorded graciously.' you'll be set and able to see the new command when typing:
+        irsend list '' ''
+
+      - If the result is 'Couldn't record command.' It's because no data was acquired.
+
+    2.2 - deleteIR
+      This script just manipulates the file where the commands are stored.
+
+      To use the script type:
+        ./deleteIR name_of_command
+      After that just follow the instructions that will pop up.
+      The messages are self explanatory.
+
+    2.3 - renameIR
+      This script just manipulates the file where the commands are stored.
+
+      To use the script type:
+        ./renameR name_of_command_stored new_name_of_command
+      After that just follow the instructions that will pop up.
+      The messages are self explanatory.

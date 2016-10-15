@@ -7,21 +7,21 @@ if [ "$1" != "" ]; then #If the user types the name of the command
     echo "Function of the command."
     echo -e "Ex: tv_living-Room_On-Off\n"
     echo "Press ENTER to continue or ctrl+c to start over."
-    read 
+    read
     clear
-    
+
     sudo /etc/init.d/lirc stop >> log
-    
+
     #Learning a new command.
     mode2 -m -d /dev/lirc0 > tmp &
-    echo -e "Press the button now...\n" 
-    PID=$! 
+    echo -e "Press the button now...\n"
+    PID=$!
     sleep 2
-    kill -PIPE $PID 
-    echo -e "You can release it now.\n\nChecking recording...\n" 
-    
+    kill -PIPE $PID
+    echo -e "You can release it now.\n\nChecking recording...\n"
+
     if [ -s tmp ]
-    then 
+    then
         #Tailing the unecessary number
         tail -n +3 tmp > tmp0 #Removes the first 2 lines
         sed '/^$/Q' tmp0 > rawData #Removes anything from a empty line forth
@@ -33,9 +33,9 @@ if [ "$1" != "" ]; then #If the user types the name of the command
 
         #At this point we need to check if the new code needs tailing the
         #last number or not.
-        #To do that, we'll add to a new file and check if the system 
+        #To do that, we'll add to a new file and check if the system
         #recognizes the file, in case not, we'll need to tail the code.
-        
+
         #begin testing
             cat .headFile rawData .tailFile > tmp.conf
             sudo cp tmp.conf /etc/lirc/lircd.conf
@@ -56,13 +56,13 @@ if [ "$1" != "" ]; then #If the user types the name of the command
 
         #Concatenating all files
         cat .headFile .allRawData .tailFile > ~/lircd.conf
-        
+
        #Copying the new file to the right place
        sudo cp ~/lircd.conf /etc/lirc/lircd.conf
 
     else #This else refers to the case when the user doesn't press the button                                                                  │
         echo "Couldn't record command."
-        
+
         #Removing useless files
         rm tmp* log
 
@@ -79,7 +79,7 @@ sudo cp ~/lircd.conf /etc/lirc/lircd.conf >> log
 
 sudo /etc/init.d/lirc restart >> log
 
-echo "$1 recorded graciouslly."
+echo "$1 recorded graciously. "
 
 #Removing useless files
 rm tmp* log rawData

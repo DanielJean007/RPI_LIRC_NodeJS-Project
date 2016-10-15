@@ -4,33 +4,30 @@ This projects records the remote control command in order to bean them back from
 This setup can be accessed from anywhere via a Internet enable device
 
 # Necessary hardware to run this project
-1 - Raspberry Pi board. This project was developed on a RPI-1B board.
+  * Raspberry Pi board. This project was developed on a RPI-1B board.
 
-2 - Infra-Red sensor. (Emitter and receiver.)
+  * Infra-Red sensor. (Emitter and receiver.)
 
-3 - Dongle wifi.
+  * Dongle wifi.
 
 # Necessary software to run this project
-1 - LIRC library
+  * LIRC library
 
-2 - NodeJS
+  * NodeJS
 
-3 - lirc_web project
+  * lirc_web project
 
-4 - localtunnel or ngrok
+  * localtunnel or ngrok
 
 # Where to find help for setting up things
   Set up LIRC lib on RPI:
   * [Instructables](http://www.instructables.com/id/How-To-Useemulate-remotes-with-Arduino-and-Raspber/?ALLSTEPS)
 
-    2 - http://alexba.in/blog/2013/01/06/setting-up-lirc-on-the-raspberrypi/
-
+  * [AlexBain](http://alexba.in/blog/2013/01/06/setting-up-lirc-on-the-raspberrypi/)
 
   Set up NodeJs on RPI:
-
-    1 - http://node-arm.herokuapp.com/
-
-    2 - http://weworkweplay.com/play/raspberry-pi-nodejs/
+  * [Node-ARM](http://node-arm.herokuapp.com/)
+  * [NodeJS](http://weworkweplay.com/play/raspberry-pi-nodejs/)
 
   To wire the sensor to RPI and to test them:
 

@@ -22,10 +22,9 @@ This setup can be accessed from anywhere via a Internet enable device
 # Where to find help for setting up things
   Set up LIRC lib on RPI:
   * [Instructables](http://www.instructables.com/id/How-To-Useemulate-remotes-with-Arduino-and-Raspber/?ALLSTEPS)
-
   * [AlexBain](http://alexba.in/blog/2013/01/06/setting-up-lirc-on-the-raspberrypi/)
 
-  Set up NodeJs on RPI:
+ Set up NodeJs on RPI:
   * [Node-ARM](http://node-arm.herokuapp.com/)
   * [NodeJS](http://weworkweplay.com/play/raspberry-pi-nodejs/)
 

@@ -106,9 +106,8 @@ This setup can be accessed from anywhere via a Internet enable device
       After that just follow the instructions that will pop up.
         - The expected result is 'name_of_command recorded graciously.'
         That means you'll be set and able to see the new command when typing:
-          irsend list '' ''
-
-        - If the result is 'Couldn't record command.' It's because no data was acquired.
+          irsend list '' '''
+        - If the result is `Couldn't record command.` It's because no data was acquired.
 
     2.2 - deleteIR
       This script just manipulates the file where the commands are stored.
@@ -149,3 +148,5 @@ If you got here congratulations! Now you can control stuff over the Internet. Yo
   Feel free to use the stuff here in your project as you see fit. Just remember to cite thi repo.
 
   And please, let me know of your projects that used this idea. I'd glad to add your improvements to my project here.
+  
+### `Because God so loved the world that He give His only and begotten Son. John 3.16a` 

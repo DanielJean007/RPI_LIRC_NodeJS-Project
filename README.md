@@ -101,13 +101,9 @@ You can use the built-in functions from LIRC lib, or my automated scripts. To be
     - Delete your own commands.
     - Rename your commands.
 
-### -
+#### Attention: Every time you change the `lircd.conf` you must restart the `app.js` process. Then you will be able to see the changes on the web server. You might want to be able to see that by only refreshing the page, though.
 
-##### Every time you change the `lircd.conf` you must restart the `app.js` process. Then you will be able to see the changes on the web server. You might want to be able to see that by only refreshing the page, though.
-
-### -
-
-#### If you got here congratulations! Now you can control stuff over the Internet. You did that without adding any hardware to your devices.
+### If you got here congratulations! Now you can control stuff over the Internet. You did that without adding any hardware to your devices.
 
 # Disclaimer
   This project is, by all means, NOT at a finished state. This project is intended to get your feet wet on RPI, LIRC, NodeJS and Tunneling.

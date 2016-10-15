@@ -1,7 +1,7 @@
 # RPI_LIRC_NodeJS-Project
-This projects records the remote control command in order to bean them back from a local hardware set up on a RPI.
+This project's records the remote control command in order to beam them back from a local hardware set up on a RPI.
 
-This setup can be accessed from anywhere via a Internet enable device
+This setup can be accessed from anywhere via an Internet enabled device
 
 # Necessary hardware to run this project
   * Raspberry Pi board. This project was developed on a RPI-1B board.
@@ -20,11 +20,11 @@ This setup can be accessed from anywhere via a Internet enable device
   * localtunnel or ngrok
 
 # Where to find help for setting things up
-Set up LIRC lib on RPI:
+To set up LIRC lib on RPI:
   * [Instructables](http://www.instructables.com/id/How-To-Useemulate-remotes-with-Arduino-and-Raspber/?ALLSTEPS)
   * [AlexBain](http://alexba.in/blog/2013/01/06/setting-up-lirc-on-the-raspberrypi/)
 
-Set up NodeJs on RPI:
+To set up NodeJs on RPI:
   * [Node-ARM](http://node-arm.herokuapp.com/)
   * [NodeJS](http://weworkweplay.com/play/raspberry-pi-nodejs/)
 
@@ -32,10 +32,10 @@ To wire the sensor to RPI and to test them:
   * [Test-IR](https://learn.adafruit.com/ir-sensor/testing-an-ir-sensor)
   * [Wire-IR to RPI](http://randomtutor.blogspot.com.br/2013/01/web-based-ir-remote-on-raspberry-pi.html)
 
-Set up dongle wifi to RPI:
+To set up dongle wifi to RPI:
   * [Ivan](http://ivanx.com/raspberrypi/raspberrypi_wifi.html)
 
-Tunnel the local service to the world:
+To tunnel the local service to the world:
   * [HongKiat](http://www.hongkiat.com/blog/accessible-local-web-server/)
   * [LocalTunnel](https://github.com/localtunnel/localtunnel)
 
@@ -43,7 +43,7 @@ Tunnel the local service to the world:
 ### Move things around:
   * To `lirc_web/` folder:
     * Move the folders 'db/', 'views/' and the file 'app.js' to the folder 'lirc_web/'.
-    * This will change the behaviour of the website where we can access the remote controls. Since our local server is going to be tunneled, it'll need a login area. It's NOT interesting the everyone with the link could access the devices in our house. It's better if ONLY people with username and password could to it.
+    * This will change the behaviour of the website where we can access the remote controls. Since our local server is going to be tunneled, it'll need a login area. It's NOT ideal that everyone with the link could access devices in our house. It's better if ONLY people with the username and password could use it.
     * To add a new user and password open the file 'users.js' under the folder 'db/'. Just follow the structure under 'var records'.
     * To test the web server type:
       * username: **batman**
@@ -62,13 +62,13 @@ Tunnel the local service to the world:
           - Deleting a command and
           - Renaming an existing command.
 
-          **See instructions on how to use them bellow.**
+          **See instructions on how to use them below.**
 
   * After making these small changes you should be able to:
     - Use the built-in functions from LIRC lib.
     - Run a local web server with NodeJS. Using: `sudo node lirc_web/app.js`.
     - Tunnel the local web server to the world. Using: `lt -p 80 --subdomain your_subdomain`.
-    - Use username and password to access the web server.
+    - Use a username and password to access the web server.
     - See the commands I recorded on the Internet.
 
 ### Add your own stuff:
@@ -95,7 +95,7 @@ You can use the built-in functions from LIRC lib, or my automated scripts. To be
 
   * After making these small changes you should be able to:
     - Record your own commands.
-    - Remove my commands. Although I'd advise to use the command: `echo '' > lircFiles/.allRawData`. This command *erases* the content of the file where my commands **(and eventually yours)** are stored: `.allRawData`.
+    - Remove my commands. Although I'd advise using the command: `echo '' > lircFiles/.allRawData`. This command *erases* the content of the file where my commands **(and eventually yours)** are stored: `.allRawData`.
     - Delete your commands.
     - Rename your commands.
 
@@ -104,7 +104,7 @@ You can use the built-in functions from LIRC lib, or my automated scripts. To be
 ### If you got here congratulations! Now you can control stuff over the Internet. You did that without adding any hardware to your devices.
 
 # Disclaimer
-  * By no means, this project is at a finished state. This project is intended to get your feet wet on RPI, LIRC, NodeJS and Tunneling.
+  * This project is by no means in its finished state. This project is intended to get your feet wet on RPI, LIRC, NodeJS and Tunneling.
   * It's also NOT bug free. You know...
   * Feel free to use the stuff here in your project as you see fit. Just remember to cite this repo.
   * And please, let me know of your projects that used this idea. I'd be glad to add your improvements to my project here.

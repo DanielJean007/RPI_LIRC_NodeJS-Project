@@ -42,7 +42,7 @@ Tunnel the local service to the world:
 # What to do after following all the steps above?
 * Moving things around:
   * For lirc_web
-     
+
     * Move the folders 'db/', 'views/' and the file 'app.js' to the folder 'lirc_web.
 
     * This will change the behaviour of the website where we can access the remote controls. Since our local server is going to be tunneled, it'll need a login area. It's NOT interesting the everyone with the link could access the devices in our house.
@@ -50,7 +50,9 @@ Tunnel the local service to the world:
 
     * To add a new user and password open the file 'users.js' under the folder 'db/'. Just follow the structure under 'var records'.
 
-    * To test the web server type: \nusername: batman \npassword: robin
+    * To test the web server type:
+      - username: batman
+      - password: robin
 
     * Another change is that we'll be using port 80, instead of 3000.
 
@@ -134,7 +136,7 @@ If you got here congratulations! Now you can control stuff over the Internet. Yo
   Feel free to use the stuff here in your project as you see fit. Just remember to cite this repo.
 
   And please, let me know of your projects that used this idea. I'd be glad to add your improvements to my project here.
-  
+
 # ---
 #### `For God so loved the world that He gave his one and only Son, that whoever believes in Him shall not perish but have eternal life.`
-#### `John 3.16` 
+#### `John 3.16`

@@ -66,10 +66,10 @@ Tunnel the local service to the world:
 
     * After making these small changes you should be able to:
       - Use the built-in functions from LIRC lib.
-      - Run a local web server with NodeJS.
-        Using: sudo node lirc_web/app.js
-      - Tunnel the local web server to the world.
-        Using: lt -p 80 --subdomain your_subdomain
+      - Run a local web server with NodeJS. Using:
+        `sudo node lirc_web/app.js`
+      - Tunnel the local web server to the world. Using:
+        `lt -p 80 --subdomain your_subdomain`
       - Use username and password to access the web server.
       - See the commands I recorded on the Internet.
 

@@ -1,0 +1,35 @@
+#!/bin/bash
+
+#This file is to rename commands in the lircd.conf file
+if [ "$1" != "" -a "$2" != "" ]
+then #If the user types the name of the command
+    echo -e "You're about to rename $1 to $2...\n"
+    echo "Are you sure about this? (Press ENTER to yes or ctrl+c to exit)"
+    read
+
+    #Checking if command exists in the file
+    if grep -Fwq "$1" .allRawData
+    then #If a match was found
+        #Deleting
+        sudo sed -i 's/'"$1"'/'"$2"'/' .allRawData
+        echo -e "$1 renamed to $2 successfully!\n"
+
+        #Concatenating all files
+        cat .headFile .allRawData .tailFile > ~/lircd.conf
+
+        #Copying the new file to the right place
+        sudo cp ~/lircd.conf /etc/lirc/lircd.conf
+
+        #Restarting process
+        sudo /etc/init.d/lirc restart >> log
+        rm log
+
+    else # If no matching name was found
+        echo "Couldn't find the command."
+        echo "Be sure you typed it write."
+    fi
+else
+    echo "Type the name of the command to remane."
+fi
+
+exit 0

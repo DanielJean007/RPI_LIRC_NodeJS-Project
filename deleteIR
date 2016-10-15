@@ -1,0 +1,42 @@
+#!/bin/bash
+
+if [ "$1" != "" ]
+then #If the user types the name of the command
+    echo -e "CAREFUL!!\nYou're about to delete $1.\nBe warned!\n"
+    echo "Are you sure about this? (Press ENTER to yes or ctrl+c to exit)"
+    read
+
+    #Checking if command exists in the file
+    if grep -Fwq "$1" .allRawData
+    then #If a match was found
+        #Deleting
+        toDelete="$1"
+        sudo sed '/'"$toDelete"'/,/^ *$/ d' .allRawData > .tmpDel
+        cat .tmpDel > .allRawData
+        echo -e "$toDelete deleted successfully!\n"
+
+        #Merging the head and tail files into the lirc.conf and
+        #sending it to the right place.
+
+        #Concatenating all files
+        cat .headFile .allRawData .tailFile > ~/lircd.conf
+        
+        #Copying the new file to the right place
+        sudo cp ~/lircd.conf /etc/lirc/lircd.conf
+
+        #Restarting process
+        sudo /etc/init.d/lirc restart >> log
+
+        #Removing created files
+        rm .tmpDel
+
+
+    else # If no matching name was found
+        echo "Couldn't find the command."
+        echo "Be sure you typed it write."
+    fi
+else
+    echo -e "Type the name of the command."
+fi
+
+exit 0

@@ -17,6 +17,8 @@ This setup can be accessed from anywhere via a Internet enable device
 
 3 - lirc_web project
 
+4 - localtunnel or ngrok
+
 # Where to find help for setting up things
   Set up LIRC lib on RPI:
 

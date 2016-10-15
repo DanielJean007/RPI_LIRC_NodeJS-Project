@@ -49,7 +49,7 @@ This setup can be accessed from anywhere via a Internet enable device
 
     2 - https://github.com/localtunnel/localtunnel
 
-# What do do after following all the above steps?
+# What to do after following all the steps above?
   1 - Moving things around:
 
     1.1 - For lirc_web
@@ -73,6 +73,6 @@ This setup can be accessed from anywhere via a Internet enable device
 
       It's not a good idea to change this file from there. Believe me, I've tried.
 
-      The folder 'lircFiles/' contains handy scripts for automating the process of recording a new command, deleting a command and renaming an existing command. 
+      The folder 'lircFiles/' contains handy scripts for automating the process of recording a new command, deleting a command and renaming an existing command.
 
     After making these small changes the reader is able

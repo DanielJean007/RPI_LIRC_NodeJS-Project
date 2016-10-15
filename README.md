@@ -135,4 +135,4 @@ This setup can be accessed from anywhere via a Internet enable device
       - Remove your own commands.
       - Rename commands.
 
-# If you got here congratulations! Now you can control stuff over the Internet. You did that without adding any hardware to your devices.
+If you got here congratulations! Now you can control stuff over the Internet. You did that without adding any hardware to your devices.

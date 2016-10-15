@@ -29,8 +29,8 @@ Set up NodeJs on RPI:
   * [NodeJS](http://weworkweplay.com/play/raspberry-pi-nodejs/)
 
 To wire the sensor to RPI and to test them:
-  * [WireUP-IR](https://learn.adafruit.com/ir-sensor/testing-an-ir-sensor)
-  * [Test-IR](http://randomtutor.blogspot.com.br/2013/01/web-based-ir-remote-on-raspberry-pi.html)
+  * [Test-IR](https://learn.adafruit.com/ir-sensor/testing-an-ir-sensor)
+  * [Wire-IR to RPI](http://randomtutor.blogspot.com.br/2013/01/web-based-ir-remote-on-raspberry-pi.html)
 
 Set up dongle wifi to RPI:
   * [Ivan](http://ivanx.com/raspberrypi/raspberrypi_wifi.html)

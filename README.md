@@ -73,13 +73,13 @@ This setup can be accessed from anywhere via a Internet enable device
         - Move the file 'lircd.conf' in this repo to the directory ~/ (which is supposed do be pi/home/).
         - After that type irsend list '' '' . You should see 'MasterControl'.
       This means you'll see the commands from this remote control on the website.
-      * It's not a good idea to change 'lircd.conf' from it's original place. Believe me, I've tried.
+      **It's not a good idea to change 'lircd.conf' from it's original place. Believe me, I've tried.**
 
       The folder 'lircFiles/' contains handy scripts for automating the process of:
         - Recording a new command,
         - Deleting a command and
         - Renaming an existing command.
-      * See instructions on how to use them bellow.
+      **See instructions on how to use them bellow.**
 
     After making these small changes you should be able to:
       - Use the built-in functions from LIRC lib.
@@ -140,3 +140,12 @@ This setup can be accessed from anywhere via a Internet enable device
     You might want to be able to see that by only refreshing the page, though.
 
 If you got here congratulations! Now you can control stuff over the Internet. You did that without adding any hardware to your devices.
+
+# Disclaimer
+  This project is, by all means, NOT at a finished state. This project is intended to get your feet wet on RPI, LIRC, NodeJS and Tunneling.
+
+  It's also NOT bug free. You know...
+
+  Feel free to use the stuff here in your project as you see fit. Just remember to cite thi repo.
+
+  And please, let me know of your projects that used this idea. I'd glad to add your improvements to my project here.

@@ -42,17 +42,17 @@ To tunnel the local service to the world:
 # What to do after following all the steps above?
 ### Move things around:
   * To `lirc_web/` folder:
-    * Move the folders 'db/', 'views/' and the file 'app.js' to the folder 'lirc_web/'.
+    * Move the folders `db/`, `views/` and the file `app.js` to the folder `lirc_web/`.
     * This will change the behaviour of the website where we can access the remote controls. Since our local server is going to be tunneled, it'll need a login area. It's NOT ideal that everyone with the link could access devices in our house. It's better if ONLY people with the username and password could use it.
-    * To add a new user and password open the file 'users.js' under the folder 'db/'. Just follow the structure under 'var records'.
+    * To add a new user and password open the file `users.js` under the folder `db/`. Just follow the structure under `var records`.
     * To test the web server type:
       * username: **batman**
       * password: **robin**
-    * Another change is that we'll be using port 80, instead of 3000.
+    * Another change is that we'll be using port `80`, instead of `3000`.
 
   * For LIRC lib
     * For a quick test of the functionalities of this project:
-      * Move the file 'lircd.conf' in this repo to the directory ~/ (which is supposed do be pi/home/).
+      * Move the file `lircd.conf` in this repo to the directory `~/` (which is supposed do be pi/home/).
       After that type irsend list '' '' . You should see 'MasterControl'. This means you'll see the commands from this remote control on the website.
 
         **It's not a good idea to change 'lircd.conf' from it's original place. Believe me, I've tried.**

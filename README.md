@@ -1,7 +1,7 @@
 # RPI_LIRC_NodeJS-Project
-This project's records the remote control command in order to beam them back from a local hardware set up on a RPI.
+This project describe an assembly of a RPI device that records remote control commands in order to beam them back from a local hardware set up on a RPI.
 
-This setup can be accessed from anywhere via an Internet enabled device
+This setup can be accessed from anywhere via an Internet enabled device.
 
 # Necessary hardware to run this project
   * Raspberry Pi board. This project was developed on a RPI-1B board.

@@ -9,6 +9,8 @@ This setup can be accessed from anywhere via an Internet enabled device.
   * Infra-Red sensor. (Emitter and receiver.)
 
   * Dongle wifi.
+  
+  * Power supply greater than or equal to 1500mA.
 
 # Necessary software to run this project
   * LIRC library
